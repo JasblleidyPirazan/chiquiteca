@@ -1,0 +1,12 @@
+{
+  "name": "chiquiteca-2000milera",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Invitación de la Chiquiteca 2000milera",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
