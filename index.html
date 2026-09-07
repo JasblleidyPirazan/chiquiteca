@@ -41,7 +41,9 @@ button{font:inherit}
 .partybtn{flex:1;font-family:Tahoma,sans-serif;font-size:13px;font-weight:700;padding:10px 0;border-radius:8px;cursor:pointer;border:2px solid #c9d8ea;background:linear-gradient(180deg,#ffffff,#eef4fb);color:#4a5a70}
 .partybtn.active{border-color:#d86bb5;background:linear-gradient(180deg,#ffd9ef,#f0a8d8);color:#6b1f52}
 
+.calbtn{animation:calglow 2.2s ease-in-out infinite}
 .calbtn:hover{transform:translateY(-2px)}
+@keyframes calglow{0%,100%{box-shadow:0 6px 18px rgba(150,60,160,.5)}50%{box-shadow:0 6px 26px rgba(255,46,136,.75)}}
 
 .brick{aspect-ratio:2/1;border-radius:2px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.15)}
 .pinlink{transition:transform .15s,box-shadow .15s}
@@ -196,15 +198,16 @@ button{font:inherit}
               </div>
             </div>
 
-            <div style="margin-top:10px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,#ffffff,#e2f0ff);border:1px solid #9cc6ea;border-radius:9px;padding:9px 11px">
+            <a class="calbtn" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MzUwZ3FsOGVqYmUyYnRsNWt0ZmE4Z2phMXYgamFzYmxsZWlkeUBt&amp;tmsrc=jasblleidy%40gmail.com" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;text-decoration:none;background:linear-gradient(135deg,#ff2e88,#a45bff 55%,#6b3bb5);color:#fff;font-family:Bungee,Tahoma,sans-serif;font-size:14px;letter-spacing:.3px;padding:15px;border-radius:999px;border:2px solid #ffffffcc;box-shadow:0 6px 18px rgba(150,60,160,.5)">
+              <svg viewBox="0 0 24 24" style="width:20px;flex:none"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M3 9.5h18" stroke="#fff" stroke-width="1.8"/><path d="M8 3v4M16 3v4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M12 12.5v6M9 15.5h6" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg>
+              ¡GUÁRDALO EN TU CALENDAR!
+            </a>
+            <p style="margin:6px 0 0;text-align:center;font-size:10.5px;color:#8b6bb5;letter-spacing:.3px">un clic y ya, para que no se le olvide a nadie</p>
+
+            <div style="margin-top:12px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,#ffffff,#e2f0ff);border:1px solid #9cc6ea;border-radius:9px;padding:9px 11px">
               <svg viewBox="0 0 18 30" style="width:15px;flex:none"><rect x="5" y="1" width="8" height="7" rx="1.5" fill="#cfe6f7" stroke="#6b9dc4"/><path d="M4 9h10v18a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z" fill="#e8f6ff" stroke="#6b9dc4"/><path d="M4 18h10v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z" fill="#a9d8f5"/></svg>
               <div style="font-size:13px;font-weight:700;color:#12324f;line-height:1.25">Política de licor: lleve lo que quiera tomar para ud.</div>
             </div>
-
-            <a class="calbtn" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MzUwZ3FsOGVqYmUyYnRsNWt0ZmE4Z2phMXYgamFzYmxsZWlkeUBt&amp;tmsrc=jasblleidy%40gmail.com" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;text-decoration:none;background:linear-gradient(180deg,#ffffff,#e3ecfb);color:#2f4a80;font-weight:700;font-size:13.5px;padding:11px;border-radius:999px;border:2px solid #a9bcd8;box-shadow:0 3px 10px rgba(90,110,160,.25)">
-              <svg viewBox="0 0 24 24" style="width:17px;flex:none"><rect x="3" y="5" width="18" height="16" rx="2" fill="#eaf1ff" stroke="#4a6bab" stroke-width="1.5"/><path d="M3 9h18" stroke="#4a6bab" stroke-width="1.5"/><path d="M8 3v4M16 3v4" stroke="#4a6bab" stroke-width="1.5" stroke-linecap="round"/><rect x="7" y="12" width="4" height="4" fill="#4a6bab"/></svg>
-              Agregar a Google Calendar
-            </a>
 
             <div style="margin-top:14px;background:#ffffff;border:2px solid #d8c9f0;border-radius:10px;padding:13px 14px;font-size:13.5px;line-height:1.62;color:#2a2340">
               <p style="margin:0 0 10px"><b style="font-family:Bungee,Tahoma,sans-serif;font-size:15px;color:#ff2e88;letter-spacing:.5px">Amix</b></p>
